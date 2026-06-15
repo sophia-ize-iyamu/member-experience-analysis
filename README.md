@@ -51,7 +51,7 @@ from the CMS Provider Data Catalog (Medicare Care Compare). Dataset ID `dgck-syf
 
 - Dataset page: https://data.cms.gov/provider-data/dataset/dgck-syfz
 - Direct CSV (fetched by `analysis.py`): https://data.cms.gov/provider-data/api/1/datastore/query/dgck-syfz/0/download?format=csv
-- Catalog home (search "HCAHPS" if a link shifts): https://data.cms.gov/provider-data/
+- Catalog home (search "HCAHPS" if link shifts): https://data.cms.gov/provider-data/
 
 HCAHPS is the standardized, publicly reported US patient-experience survey. The figures here
 reflect the dataset release downloaded at run time; CMS refreshes it periodically.
