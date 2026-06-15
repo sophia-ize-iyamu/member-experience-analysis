@@ -46,5 +46,12 @@ key-driver method); the dimensions are correlated, so read the coefficients as r
 weights. HCAHPS is CMS risk- and mode-adjusted but still reflects case-mix differences.
 
 ## Source
-U.S. Centers for Medicare & Medicaid Services, "Patient survey (HCAHPS) - Hospital," CMS
-Provider Data Catalog, data.cms.gov.
+U.S. Centers for Medicare & Medicaid Services (CMS), "Patient survey (HCAHPS) - Hospital,"
+from the CMS Provider Data Catalog (Medicare Care Compare). Dataset ID `dgck-syfz`.
+
+- Dataset page: https://data.cms.gov/provider-data/dataset/dgck-syfz
+- Direct CSV (fetched by `analysis.py`): https://data.cms.gov/provider-data/api/1/datastore/query/dgck-syfz/0/download?format=csv
+- Catalog home (search "HCAHPS" if a link shifts): https://data.cms.gov/provider-data/
+
+HCAHPS is the standardized, publicly reported US patient-experience survey. The figures here
+reflect the dataset release downloaded at run time; CMS refreshes it periodically.
